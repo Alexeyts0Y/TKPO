@@ -5,7 +5,7 @@ import services.*;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in, "CP866");
         AppointmentCreator creator = new AppointmentCreator(scanner);
         AppointmentExecutor executor = new AppointmentExecutor();
 

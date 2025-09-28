@@ -6,7 +6,7 @@ import java.util.*;
 public class AppointmentCreator {
 
     private final Map<Integer, AppointmentFactory> factories = new HashMap<>();
-    private Scanner scanner ;
+    private Scanner scanner;
 
     public AppointmentCreator() {}
     

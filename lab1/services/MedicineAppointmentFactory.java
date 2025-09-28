@@ -1,12 +1,11 @@
 package services;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 import entities.Appointment;
 import entities.Patient;
 import entitiesImpl.MedicineAppointment;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class MedicineAppointmentFactory implements AppointmentFactory{
 
